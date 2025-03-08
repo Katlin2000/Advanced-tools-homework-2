@@ -86,3 +86,18 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 650px) {
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+
+  .yoga-button {
+    justify-content: center;
+    align-items: center;
+  }
+}
